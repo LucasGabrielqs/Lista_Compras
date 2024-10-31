@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 24pxS;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_produto{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.div_produto input{
+    width: 200px;
+    height: 20px;
+    margin: auto;
+}
+.div_quantidade{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.div_quantidade input{
+    width: 200px;
+    height: 20px;
+    margin: auto;
+}
+.Button input{
+    background-color:blue;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+pre{
+    width: 400px;
+    margin: auto;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+}
